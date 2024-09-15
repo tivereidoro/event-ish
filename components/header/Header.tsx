@@ -23,7 +23,8 @@ export default function Header() {
 
                 <div className='flex w-32 justify-end gap-3'>
                     <SignedIn>
-                        <UserButton {/* fallbackRedirectUrl='/' */} />
+                        <UserButton />
+                        {/* fallbackRedirectUrl='/' */}
                         <MobileNav />
                     </SignedIn>
 
